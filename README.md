@@ -7,6 +7,20 @@ Watch the demo video: (https://youtu.be/mi3qrnqoHJg)
 
 Using the water shader, the ocean simulation is played in real time, featured with caustics effect. By clicking on the ocean, ripples can be observe. We also implemented the rotation of the sun and moon, which affects the environment lighting.
 
+## Caustics
+﻿﻿﻿![image](https://github.com/user-attachments/assets/ea2bf50c-e38c-4bf6-9d4f-1bc24af8d587)
+Caustics is radiosity energy scattered by reflection & refraction.
+When an area of light hits the surface, it is scattered or concentrated, and its area projected to the bottom changes. 
+We already have the ray tracer, so we can just use it to simulate triangle unit area of light, defined by three points, and thus three rays shot from light source in parallel, and they changes their directions through the water surface, and finally hits on the ground.
+
+![image](https://github.com/user-attachments/assets/cd01d65f-4647-4b1f-b01e-a38bacb175c9)
+Parameters:
+Area coefficient - definition;
+Project length - contrast.
+
+
+
+
 ## Workload Distribution
 
 ##### Noya: 
